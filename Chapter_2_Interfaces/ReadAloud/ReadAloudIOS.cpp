@@ -14,7 +14,7 @@ public:
 	
 	void Pause()
 	{
-		
+
 	}
 	
 	void Stop()
@@ -33,6 +33,7 @@ public:
 int main()
 {
 	shared_ptr<ReadAloudIOS> raIOS = make_shared<ReadAloudIOS>();
+	
 	ReadAloudCore rac(raIOS);
 
 	rac.Play();
